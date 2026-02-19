@@ -29,7 +29,7 @@
             </li>
           </ul>
         </nav>
-      <address>
+      <address class="address-place">
         <ul class="address-list">
           <li>
             <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -39,13 +39,18 @@
           </li>
         </ul>
       </address>
+      <button class="burger-button" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- #endregion header-->
 
     <main>
       <!-- #region hero-->
-      <section class="hero-page">
+      <section class="hero-page hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <div class="hero-button"><button class="hero-page-button" type="button">Order Service</button></div>
@@ -54,7 +59,7 @@
       <!-- #endregion hero-->
 
       <!-- #region features-->
-      <section class="features">
+      <section class="features hidden">
         <div class="container">
           <h2 class="features-title visually-hidden">All features</h2>
           <ul class="features-list">
@@ -105,7 +110,7 @@
       <!-- #endregion features-->
 
       <!-- #region team-->
-      <section class="section-team">
+      <section class="section-team hidden">
         <div class="container">
           <h2 class="section-team-title">Our Team</h2>
           <ul class="team-list">
@@ -207,7 +212,7 @@
       <!-- #endregion team-->
 
       <!-- #region portfolio-->
-      <section class="section-portfolio">
+      <section class="section-portfolio hidden">
         <div class="container portfolio-container">
           <h2>Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -302,7 +307,7 @@
     </main>
 
     <!-- #region footer-->
-    <footer>
+    <footer class="hidden">
       <div  class="container">
         <ul class="footer-list">
           <li class="footer-list-item">
@@ -345,7 +350,7 @@
     </footer>
     <!-- #endregion footer-->
     <!-- #region popup -->
-    <div class="backdrop-popup">
+    <div class="backdrop-popup hidden">
       <div class="popup-review">
         <button class="close-popup">
           <svg class="close-popup-icon" width="8px" height="8px"><use href="./images/icons.svg#icon-close"></use>
