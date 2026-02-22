@@ -51,7 +51,7 @@ h3 {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-section p {
+p {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -88,6 +88,7 @@ section p {
     }
 }
 /* #endregion common */
+
 /* #region header */
 header {
     border-bottom: 1px solid #E7E9FC;
@@ -830,7 +831,6 @@ h1 {
     letter-spacing: 0.02em;
 }
 .navigation-mobilemenu-link.current {
-    /* position: relative; */
     color: #404BBF;
 }
 .navigation-mobilemenu-link:hover,
@@ -897,6 +897,7 @@ h1 {
 }
 }
 /* #endregion mobilemenu */
+
 /* #region popup */
 .backdrop-popup {
     position: fixed;
