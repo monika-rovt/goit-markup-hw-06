@@ -458,10 +458,11 @@ h1 {
     gap: 24px;
     padding-left: 156px;
     padding-right: 156px;
+
 }
-.team-list-item {
-    width: 100%;
-}
+/* .team-list-item {
+    width: calc((100% - (24px * 3)) / 4);
+} */
 }
 /* #endregion team */
 
