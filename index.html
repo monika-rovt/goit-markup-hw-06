@@ -418,8 +418,8 @@
   </div>
     <!-- #endregion mobilemenu -->
     <!-- #region popup -->
-    <div class="backdrop-popup hidden">
-      <div class="popup-review">
+    <div class="backdrop-popup">
+      <div class="popup-review container">
         <button class="close-popup">
           <svg class="close-popup-icon" width="8px" height="8px"><use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -453,13 +453,15 @@
           </div>
           <div class="popup-checkbox">
             <input type="checkbox" id="user-terms" name="user-terms" required class="input-checkbox visually-hidden">
-            <label for="user-terms" class="terms-label">
-              <span class="custom-checkbox">
-                <svg class="check-icon" width="10px" height="8px"><use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the <a href="" class="privacy-link">Privacy Policy</a>
-            </label>
+            
+              <label for="user-terms" class="terms-label">
+                <span class="custom-checkbox">
+                  <svg class="check-icon" width="10px" height="8px"><use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <span class="custom-condition">I accept the terms and conditions of the <a href="" class="privacy-link">Privacy Policy</a></span>
+              </label>
+            
           </div>
           <button type="submit" class="popup-button">Send</button>
         </form>

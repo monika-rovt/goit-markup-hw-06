@@ -482,7 +482,7 @@ ul {
 } */
 /* #endregion footer*/
 /* #region popup */
-.backdrop-popup {
+/* .backdrop-popup {
     position: fixed;
     z-index: 9999;
     background-color: rgba(46, 47, 66, 0.4);
@@ -502,8 +502,8 @@ ul {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-}
-.popup-review {
+} */
+/* .popup-review {
     position: relative;
     background-color: #FCFCFC;
     width: 408px;
@@ -513,8 +513,8 @@ ul {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     padding: 72px 24px 24px 24px;
     overflow-y: auto;
-}
-.close-popup {
+} */
+/* .close-popup {
     background-color: #E7E9FC;
     position: absolute;
     top: 24px;
@@ -530,15 +530,15 @@ ul {
     transition-property: background-color, stroke, fill;
     transition-duration: 250ms, 250ms, 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
-}
-.close-popup:hover,
+} */
+/* .close-popup:hover,
 .close-popup:focus {
     background-color: #404BBF;
     border: none;
     stroke: #FFFFFF;
     fill: #FFFFFF;
-}
-.popup-description {
+} */
+/* .popup-description {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
@@ -546,16 +546,16 @@ ul {
     text-align: center;
     width: 360px;
     margin-bottom: 16px;
-}
-.popup-wraper {
+} */
+/* .popup-wraper {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 8px;
-}
-.label-fild {
+} */
+/* .label-fild {
     display: block;
     color: #8E8F99;
     font-weight: 400;
@@ -563,11 +563,11 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
-}
-.field-wraper {
+} */
+/* .field-wraper {
     position: relative;
-}
-.user-field {
+} */
+/* .user-field {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -581,8 +581,8 @@ ul {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding: 8px 8px 8px 34px;
-}
-.form-icon {
+} */
+/* .form-icon {
     fill: #2E2F42;
     position: absolute;
     top: 50%;
@@ -591,8 +591,8 @@ ul {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.comment-field {
+} */
+/* .comment-field {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 100%;
@@ -610,8 +610,8 @@ ul {
 }
 .comment-field::placeholder {
     color: rgba(46, 47, 66, 0.4);
-}
-.form-icon:focus,
+} */
+/* .form-icon:focus,
 .user-field:focus,
 .comment-field:focus {
     border-color: #4D5AE5;
@@ -619,11 +619,11 @@ ul {
 }
 .user-field:focus ~ .form-icon {
     fill: #4D5AE5;
-}
-.popup-checkbox {
+} */
+/* .popup-checkbox {
     margin-top: 16px;
-}
-.terms-label {
+} */
+/* .terms-label {
     display: flex;
     align-items: baseline;
     font-weight: 400;
@@ -632,8 +632,8 @@ ul {
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 24px;
-}
-.custom-checkbox {
+} */
+/* .custom-checkbox {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -647,15 +647,15 @@ ul {
     transition-property: background-color, border-color;
     transition-duration: 250ms, 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
-}
-.check-icon {
+} */
+/* .check-icon {
     fill: transparent;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.input-checkbox:checked + .terms-label .check-icon {
+/* .input-checkbox:checked + .terms-label .check-icon {
     fill: #F4F4FD;
     
 }
@@ -667,8 +667,8 @@ ul {
     background-color: #404BBF;
     border-color: #404BBF;
     outline: none;
-}
-.privacy-link {
+} */
+/* .privacy-link {
     color: #4D5AE5;
     line-height: 1.33;
     text-decoration: underline;
@@ -677,8 +677,8 @@ ul {
     font-size: 12px;
     letter-spacing: 0.04em;
     outline: none;
-}
-.popup-button {
+} */
+/* .popup-button {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -702,6 +702,6 @@ ul {
 .popup-button:focus {
     background-color: #404BBF;
     outline: none;
-}
+} */
 
 /* #endregion popup */
