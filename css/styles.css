@@ -820,8 +820,8 @@ h1 {
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
-.current {
-    position: relative;
+.navigation-mobilemenu-link.current {
+    /* position: relative; */
     color: #404BBF;
 }
 .navigation-mobilemenu-link:hover,
@@ -850,6 +850,9 @@ h1 {
 }
 .address-mobilemenu-link:hover,
 .address-mobilemenu-link:focus {
+    color: #4D5AE5;
+}
+.address-mobilemenu-link.current {
     color: #4D5AE5;
 }
 .mobilemenu-social {
